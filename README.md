@@ -19,13 +19,13 @@ Machine Learning Modeling Using RandomForest, GridCV
 
 
 
-## BUSINESS OBJECTIVE
+### BUSINESS OBJECTIVE
 
 Find the Probability Of A customer to book a flight
 Factors that are associated with booked flights
 
 
-## DATA PREPARATION
+### DATA PREPARATION
 One Hot Encoding of features 'sales_channel','trip_type','flight_day'
 Dummies were made for the number of passengers selected per booking
 Corrected Skewness inPurchase lead, Length of stay, Flight hour, Flight Duration
@@ -42,7 +42,7 @@ Data Showed just 15% of customers making Bookings
 
 
 
-## DATA MODELLING
+### DATA MODELLING
 Random Forest,LogisticRegression,GridSearchCV, was used for the classification and prediction of the model
 Correlation was checked using a heat map 
 Model was rechecked after dropping features
@@ -58,7 +58,7 @@ Confusion Matrix to evaluate performance
 
 
 
-## INSIGHTS
+### INSIGHTS
 Purchase_lead,Flight_hour, Length, Flight_duration determined an increase in the possibility of a customer booking a flight
 The price wasnt a concern but quality of services given by the company
 Customers making bookings on their mobiles were more likely to book a flight
